@@ -62,4 +62,4 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 [Sergio Meza] - serangu18@gmail.com
 
-Project Link: [https://github.com/sergiomezag/LocalNetChat](https://github.com/sergiomezag/LocalNetChat)
+Project Link: [https://github.com/semezag/LocalNetChat](https://github.com/smezag/LocalNetChat)
