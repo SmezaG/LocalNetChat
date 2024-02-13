@@ -44,6 +44,20 @@ python client.py
 
 Follow the on-screen instructions to connect to the server and start chatting
 
+### Important Configuration Note:
+
+Before starting the client, you must update the client.py file to use the IP address of the machine running server.py. Locate the line in client.py where the connection is established 
+
+```` python
+def start_client(server_host='127.0.0.1', server_port=12345): 
+````
+
+and replace server_host with the server machine's IP address.
+
+This ensures that your client knows where to send and receive messages from. If you're not sure how to find your server's IP address, you can usually find it by running ipconfig (on Windows) or ifconfig (on Linux/Mac) in your terminal.
+
+Follow the on-screen instructions to connect to the server and start chatting.
+
 ## Contributions
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will be **greatly appreciated**.
